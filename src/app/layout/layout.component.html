@@ -5,9 +5,16 @@
   <button class="btn btn-success" ngbTooltip="House">
     <i class="fa-solid fa-house fa-fw"></i>
   </button>
-  <button class="btn btn-success" ngbTooltip="Envelope">
-    <i class="fa-solid fa-envelope fa-fw"></i>
-  </button>
+  <div class="btn-group" ngbDropdown>
+    <button class="btn btn-success" ngbDropdownToggle ngbTooltip="Envelope">
+      <i class="fa-solid fa-envelope fa-fw"></i>
+    </button>
+    <div ngbDropdownMenu>
+      <button ngbDropdownItem>Envelope 1</button>
+      <button ngbDropdownItem>Envelope 2</button>
+      <button ngbDropdownItem>Envelope 3</button>
+    </div>
+  </div>
   <button class="btn btn-success" ngbTooltip="Circle">
     <i class="fa-solid fa-circle fa-fw"></i>
   </button>
@@ -23,16 +30,30 @@
   <button class="btn btn-success" ngbTooltip="Cookie">
     <i class="fa-solid fa-cookie fa-fw"></i>
   </button>
-  <button class="btn btn-success" ngbTooltip="Diamond">
-    <i class="fa-solid fa-diamond fa-fw"></i>
-  </button>
+  <div class="btn-group" ngbDropdown>
+    <button class="btn btn-success" ngbDropdownToggle ngbTooltip="Diamond">
+      <i class="fa-solid fa-diamond fa-fw"></i>
+    </button>
+    <div ngbDropdownMenu>
+      <button ngbDropdownItem>Diamond 1</button>
+      <button ngbDropdownItem>Diamond 2</button>
+      <button ngbDropdownItem>Diamond 3</button>
+    </div>
+  </div>
   <button class="btn btn-success" ngbTooltip="Eye">
     <i class="fa-solid fa-eye fa-fw"></i>
   </button>
   <button class="btn btn-success" ngbTooltip="Save">
     <i class="fa-solid fa-floppy-disk fa-fw"></i>
   </button>
-  <button class="btn btn-success" ngbTooltip="Config">
-    <i class="fa-solid fa-cog fa-fw"></i>
-  </button>
+  <div class="btn-group" ngbDropdown>
+    <button class="btn btn-success" ngbDropdownToggle ngbTooltip="Config">
+      <i class="fa-solid fa-cog fa-fw"></i>
+    </button>
+    <div ngbDropdownMenu>
+      <button ngbDropdownItem>Config 1</button>
+      <button ngbDropdownItem>Config 2</button>
+      <button ngbDropdownItem>Config 3</button>
+    </div>
+  </div>
 </div>
