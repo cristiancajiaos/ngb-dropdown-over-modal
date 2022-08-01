@@ -5,11 +5,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LayoutComponent } from './layout/layout.component';
+import { EnvelopeModalComponent } from './modals/envelope-modal/envelope-modal.component';
+import { DiamondModalComponent } from './modals/diamond-modal/diamond-modal.component';
+import { ConfigModalComponent } from './modals/config-modal/config-modal.component';
+import { LoremIpsumComponent } from './utils/lorem-ipsum/lorem-ipsum.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LayoutComponent
+    LayoutComponent,
+    EnvelopeModalComponent,
+    DiamondModalComponent,
+    ConfigModalComponent,
+    LoremIpsumComponent
   ],
   imports: [
     BrowserModule,

@@ -11,7 +11,7 @@
     </button>
     <div ngbDropdownMenu>
       <button ngbDropdownItem>Envelope 1</button>
-      <button ngbDropdownItem>Envelope 2</button>
+      <button ngbDropdownItem (click)="openConfigModal()">Envelope 2</button>
       <button ngbDropdownItem>Envelope 3</button>
     </div>
   </div>
@@ -36,7 +36,7 @@
     </button>
     <div ngbDropdownMenu>
       <button ngbDropdownItem>Diamond 1</button>
-      <button ngbDropdownItem>Diamond 2</button>
+      <button ngbDropdownItem (click)="openConfigModal()">Diamond 2</button>
       <button ngbDropdownItem>Diamond 3</button>
     </div>
   </div>
@@ -52,7 +52,7 @@
     </button>
     <div ngbDropdownMenu>
       <button ngbDropdownItem>Config 1</button>
-      <button ngbDropdownItem>Config 2</button>
+      <button ngbDropdownItem (click)="openConfigModal()">Config 2</button>
       <button ngbDropdownItem>Config 3</button>
     </div>
   </div>
